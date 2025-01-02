@@ -1,0 +1,146 @@
+body {
+    display: flex;
+   justify-content: stretch;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+    /* background: #222; */
+   background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
+    }
+   .card {
+    background: #000000d0;
+    color: white;
+   padding: 2em;
+   border-radius: 30px;
+   width: 300px;
+   height: 350px;
+   margin-left: 30px;
+    }
+   .search {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    }
+   .flex {
+    display: flex;
+    }
+   #climate {
+    position: relative;
+   display: inline;
+   left: 0%;
+   margin-top: 5%;
+    }
+   .icon {
+    position: relative;
+   display: inline;
+    }
+   button {
+    margin: 0.5em;
+   border-radius: 50%;
+   border: none;
+   height: 44px;
+   width: 44px;
+   outline: none;
+   background: #7c7c7c2b;
+    color: white;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+    }
+   input.search-input {
+    border: none;
+   outline: none;
+   padding: 0.4em 1em;
+    border-radius: 24px;
+   background: #7c7c7c2b;
+    color: white;
+   font-family: inherit;
+   font-size: 105%;
+   width: calc(100% - 100px);
+    }
+   button:hover {
+    background: #7c7c7c6b;
+    }
+   .a,
+   .b,
+   .c,
+   .d,
+   .e,
+   .f,
+   .g {
+    text-align: center;
+   /* justify-content: center; */
+   width: 80px;
+   height: 150px;
+   position: absolute;
+    }
+   .a>h2,
+   .b>h2,
+   .c>h2,
+   .d>h2,
+   .e>h2,
+   .f>h2,
+   .g>h2 {
+    margin-top: 10%;
+    }
+   .a {
+    margin-left: 40%;
+   margin-bottom: 20%;
+    }
+   .b {
+    margin-left: 40%;
+   margin-top: 20%;
+    }
+   .c {
+    margin-left: 55%;
+   margin-bottom: 20%;
+    }
+   .d {
+    margin-left: 55%;
+   margin-top: 20%;
+    }
+   .e {
+    margin-left: 70%;
+   margin-bottom: 20%;
+    }
+   .f {
+    margin-left: 70%;
+   margin-top: 20%;
+    }
+   .g {
+    margin-left: 85%;
+    }
+   .content {
+    text-align: left;
+    }
+   .content>h3 {
+    font-size: 80%;
+    }
+   .flex1,
+   .flex2,
+   .flex3,
+   .flex4,
+   .flex5,
+   .flex6,
+   .flex7 {
+    display: flex;
+    }
+   .icon1,
+   .icon2,
+   .icon3,
+   .icon4,
+   .icon5,
+   .icon6,
+   .icon7 {
+    position: relative;
+   display: inline;
+   margin-bottom: 30%;
+    }
+   h6 {
+    position: relative;
+   display: inline;
+   left: 0%;
+   margin-top: 5%;
+    }
+   
